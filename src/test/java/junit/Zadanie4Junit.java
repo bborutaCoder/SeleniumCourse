@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
+import java.util.Random;
 
 public class Zadanie4Junit {
 
@@ -34,8 +35,9 @@ public class Zadanie4Junit {
         // Arrange
         String firstName = "John";
         String lastName = "Doe";
-        String email = "534543dsa@test.com";
         String password = "admin1";
+
+        String email = generateEmail();
 
         // Act
         WebElement SingInElement = driver.findElement(By.className("hide_xs"));
@@ -110,5 +112,15 @@ public class Zadanie4Junit {
 
 //        String alreadyExistingValidationText = alreadyExistingValidation.getText();
 //        Assertions.assertTrue(alreadyExistingValidationText.contains("Istnieje już zarejestrowane konto z tym adresem e-mail, wprowadź proszę swoje hasło lub poproś o nowe."));
+    }
+
+    private String generateEmail() {
+        String randomName = "user_";
+        Random r = new Random();
+        int number = r.nextInt(1000000);
+        randomName += number;
+        String domain = "@mailTest.com";
+
+        return randomName + domain;
     }
 }
