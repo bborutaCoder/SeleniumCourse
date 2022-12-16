@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
+import java.util.Random;
 
 public class homework {
 
@@ -37,7 +38,7 @@ public class homework {
     }
 
     @Test
-    public void  form() {
+    public void  form(){
         driver.get("https://katalon-test.s3.amazonaws.com/demo-aut/dist/html/form.html");
         WebElement firstName = driver.findElement(By.xpath("//*[@id=\"first-name\"]"));
         firstName.sendKeys("Karol");
@@ -71,6 +72,55 @@ public class homework {
         WebElement show = driver.findElement(By.xpath("//*[@id=\"customer-form\"]/div/div[5]/div[1]/div/span/button"));
         WebElement birthdate = driver.findElement(By.xpath("//*[@id=\"customer-form\"]/div/div[6]/label"));
 
+    }
+
+    @Test
+    public void registerUser() {
+
+        //Arrange
+        String[] firstName = {"John", "Chosen", "Sulik"};
+        String[] lastName = {"Doe", "One", "GrampyBone"};
+        String[] password = {"admin1", "waterchip13", "geck9"};
+        String[] birthdate = {"10/10/2010", "5/5/2000", "1/1/6666"};
+        String email = generateEmail();
+
+        // Act
+
+        driver.get("https://mystore-testlab.coderslab.pl/index.php");
+        WebElement signIn = driver.findElement(By.xpath("//*[@id=\"_desktop_user_info\"]/div/a/span"));
+        signIn.click();
+        WebElement createAccount = driver.findElement(By.xpath("//*[@id=\"content\"]/div/a"));
+        createAccount.click();
+
+        WebElement firstNameElement = driver.findElement(By.xpath("//*[@id=\"field-firstname\"]"));
+        firstNameElement.sendKeys(firstName[generateRandomNumber()]);
+
+        WebElement lastNameElement = driver.findElement(By.xpath("//*[@id=\"field-lastname\"]"));
+        lastNameElement.sendKeys(lastName[generateRandomNumber()]);
+
+        WebElement emailElement = driver.findElement(By.xpath("//*[@id=\"field-email\"]"));
+        emailElement.sendKeys(email);
+        WebElement passwordElement = driver.findElement(By.xpath("//*[@id=\"field-password\"]"));
+        passwordElement.sendKeys(password);
+        WebElement birthdateElement = driver.findElement(By.xpath("//*[@id=\"field-birthday\"]"));
+        birthdateElement.sendKeys(birthdate[generateRandomNumber()]);
+    }
+
+    private String generateEmail() {
+        String randomName = "user_";
+        Random r = new Random();
+        int number = r.nextInt(1000000);
+        randomName += number;
+        String domain = "@mailTest.com";
+
+        return randomName + domain;
+    }
+    private int generateRandomNumber(){
+        Random rand = new Random();
+        int upperbound = 3;
+        int random = rand.nextInt(upperbound);
+
+        return random;
     }
 }
 

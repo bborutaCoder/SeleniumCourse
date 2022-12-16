@@ -21,9 +21,7 @@ public class Zadanie4Junit {
     }
 
     @AfterAll
-    public static void classTearDown() {
-        driver.quit();
-    }
+    public static void classTearDown() { driver.quit();}
 
     @BeforeEach
     public void setUp() {

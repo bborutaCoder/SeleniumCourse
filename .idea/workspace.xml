@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Add Selenium homework first part">
+    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Add Selenium homework basics complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework/homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/homework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit/Zadanie4Junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit/Zadanie4Junit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.homework.form">
-    <configuration name="JunitAnnotations.testAssertionA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.JunitAnnotations" />
-      <option name="METHOD_NAME" value="testAssertionA" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.homework.registerUser">
     <configuration name="Zadanie4Junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
@@ -122,13 +107,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homework.registerUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework" />
+      <option name="MAIN_CLASS_NAME" value="homework.homework" />
+      <option name="METHOD_NAME" value="registerUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.homework.registerUser" />
         <item itemvalue="JUnit.homework.form" />
         <item itemvalue="JUnit.Zadanie4Junit.createNewUserAccount" />
         <item itemvalue="JUnit.Zadanie4Junit" />
         <item itemvalue="JUnit.Zadanie4Junit.cannotUseExistingEmailTest" />
-        <item itemvalue="JUnit.JunitAnnotations.testAssertionA" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670878142891</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Selenium homework basics complete">
+      <created>1670965841181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670965841181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +180,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dzień 4 Selenium start" />
     <MESSAGE value="Add Selenium homework first part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Selenium homework first part" />
+    <MESSAGE value="Add Selenium homework basics complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Selenium homework basics complete" />
   </component>
 </project>
