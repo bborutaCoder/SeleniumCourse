@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Dzień 4 Selenium start">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/WykladoweZadanieBezPop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/WykladoweZadaniePop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/pages/HeaderElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/pages/LoginPage.java" afterDir="false" />
+    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Dzień 5 Page Object - część wykładowa">
+      <change afterPath="$PROJECT_DIR$/src/test/java/popZadania/TestRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popZadania/pages/AuthenticationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popZadania/pages/CreateAnAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/snippets/RandomEmailMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,33 +57,31 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.WykladoweZadaniePop">
-    <configuration name="WykladoweZadanieBezPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.RandomEmailMain">
+    <configuration name="RandomEmailMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snippets.RandomEmailMain" />
       <module name="SeleniumCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pop.*" />
+          <option name="PATTERN" value="snippets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pop" />
-      <option name="MAIN_CLASS_NAME" value="pop.WykladoweZadanieBezPop" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WykladoweZadanieBezPop.loginWithBadPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRegistration.registerUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pop.*" />
+          <option name="PATTERN" value="popZadania.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pop" />
-      <option name="MAIN_CLASS_NAME" value="pop.WykladoweZadanieBezPop" />
-      <option name="METHOD_NAME" value="loginWithBadPasswordTest" />
+      <option name="PACKAGE_NAME" value="popZadania" />
+      <option name="MAIN_CLASS_NAME" value="popZadania.TestRegistration" />
+      <option name="METHOD_NAME" value="registerUserTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomEmailMain" />
+        <item itemvalue="JUnit.TestRegistration.registerUserTest" />
         <item itemvalue="JUnit.WykladoweZadaniePop" />
         <item itemvalue="JUnit.WykladoweZadaniePop.loginWithBadPasswordTest" />
         <item itemvalue="JUnit.WykladoweZadaniePop.loginWithProperCredentialsTest" />
-        <item itemvalue="JUnit.WykladoweZadanieBezPop" />
-        <item itemvalue="JUnit.WykladoweZadanieBezPop.loginWithBadPasswordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,11 +167,30 @@
       <option name="project" value="LOCAL" />
       <updated>1670774344366</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dzień 5 Page Object - część wykładowa">
+      <created>1671271249169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671271249169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dzień 4 Selenium start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dzień 4 Selenium start" />
+    <MESSAGE value="Dzień 5 Page Object - część wykładowa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dzień 5 Page Object - część wykładowa" />
   </component>
 </project>
