@@ -16,6 +16,14 @@ public class AuthenticationPage {
         emailInput.sendKeys(email);
         WebElement createAccountButton = driver.findElement(By.id("SubmitCreate"));
         createAccountButton.click();
+    }
 
+    public void loginAs(String email, String password){
+        WebElement emailAdressInput = driver.findElement(By.id("email"));
+        emailAdressInput.sendKeys(email);
+        WebElement passwordInputElement = driver.findElement(By.id("passwd"));
+        passwordInputElement.sendKeys(password);
+        WebElement signInButton = driver.findElement(By.id("SubmitLogin"));
+        signInButton.click();
     }
 }
