@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Dzień 5 Page Object - generowanie losowego maila">
-      <change afterPath="$PROJECT_DIR$/src/test/java/popZadania/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/popZadania/pages/SearchBar.java" afterDir="false" />
+    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Dzień 5 Page Object - zadanie 2 - search bar">
+      <change afterPath="$PROJECT_DIR$/src/test/java/popZadania/pages/HotelSelectionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tdd/CalculatorNoTdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tdd/TddCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tdd/TddCalculatorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popZadania/pages/AuthenticationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popZadania/pages/AuthenticationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popZadania/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popZadania/BookRoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popZadania/pages/CreateAnAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popZadania/pages/CreateAnAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wait/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wait/Waits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,21 +60,8 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LoginTest.loginTest">
-    <configuration name="RandomEmailMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snippets.RandomEmailMain" />
-      <module name="SeleniumCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="snippets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BookRoomTest.bookRoomTest">
+    <configuration name="BookRoomTest.bookRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
         <pattern>
@@ -79,55 +70,71 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="popZadania" />
-      <option name="MAIN_CLASS_NAME" value="popZadania.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="popZadania.BookRoomTest" />
+      <option name="METHOD_NAME" value="bookRoomTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookRoomTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="popZadania.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="popZadania" />
+      <option name="MAIN_CLASS_NAME" value="popZadania.BookRoomTest" />
       <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRegistration.registerUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TddCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="popZadania.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="popZadania" />
-      <option name="MAIN_CLASS_NAME" value="popZadania.TestRegistration" />
-      <option name="METHOD_NAME" value="registerUserTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WykladoweZadaniePop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pop" />
-      <option name="MAIN_CLASS_NAME" value="pop.WykladoweZadaniePop" />
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.TddCalculatorTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WykladoweZadaniePop.loginWithBadPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TddCalculatorTests.twoDividedByTwoEqualsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pop.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pop" />
-      <option name="MAIN_CLASS_NAME" value="pop.WykladoweZadaniePop" />
-      <option name="METHOD_NAME" value="loginWithBadPasswordTest" />
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.TddCalculatorTests" />
+      <option name="METHOD_NAME" value="twoDividedByTwoEqualsOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TddCalculatorTests.twoMultiplyByTwoEqualsFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.TddCalculatorTests" />
+      <option name="METHOD_NAME" value="twoMultiplyByTwoEqualsFour" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.loginTest" />
-        <item itemvalue="Application.RandomEmailMain" />
-        <item itemvalue="JUnit.TestRegistration.registerUserTest" />
-        <item itemvalue="JUnit.WykladoweZadaniePop" />
-        <item itemvalue="JUnit.WykladoweZadaniePop.loginWithBadPasswordTest" />
+        <item itemvalue="JUnit.BookRoomTest.bookRoomTest" />
+        <item itemvalue="JUnit.TddCalculatorTests" />
+        <item itemvalue="JUnit.TddCalculatorTests.twoDividedByTwoEqualsOne" />
+        <item itemvalue="JUnit.TddCalculatorTests.twoMultiplyByTwoEqualsFour" />
+        <item itemvalue="JUnit.BookRoomTest.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671276855803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dzień 5 Page Object - zadanie 2 - search bar">
+      <created>1671284614625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671284614625</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,17 +212,7 @@
     <MESSAGE value="Dzień 4 Selenium start" />
     <MESSAGE value="Dzień 5 Page Object - część wykładowa" />
     <MESSAGE value="Dzień 5 Page Object - generowanie losowego maila" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dzień 5 Page Object - generowanie losowego maila" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/popZadania/pages/SearchBar.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Dzień 5 Page Object - zadanie 2 - search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dzień 5 Page Object - zadanie 2 - search bar" />
   </component>
 </project>
