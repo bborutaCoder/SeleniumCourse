@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Dzień 6 cucumber - google search test">
+    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Dzień 6 cucumber - Zadanie 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cucumber/Features/registration-test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cucumber/Features/registration-test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/hotelRegistration/HotelRegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/hotelRegistration/HotelRegistrationSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671363275030</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Dzień 6 cucumber - Zadanie 2">
+      <created>1671368756510</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671368756510</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +234,7 @@
     <MESSAGE value="Dzień 5 Page Object - zadanie 2 - search bar" />
     <MESSAGE value="Dzień 5 Page Object - ostatni commit" />
     <MESSAGE value="Dzień 6 cucumber - google search test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dzień 6 cucumber - google search test" />
+    <MESSAGE value="Dzień 6 cucumber - Zadanie 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dzień 6 cucumber - Zadanie 2" />
   </component>
 </project>

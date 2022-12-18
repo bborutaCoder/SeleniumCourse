@@ -35,10 +35,10 @@ public class HotelRegistrationSteps {
         authenticationPage.startRegistration(generateEmail());
     }
 
-    @When("User fills in the registration form and register button is clicked")
-    public void userFillsInTheRegistrationFormAndRegisterButtonIsClicked() {
+    @When("User fills in the registration form with {}, {}, {} and register button is clicked")
+    public void userFillsInTheRegistrationFormAndRegisterButtonIsClicked(String firstName, String lastName, String password) {
         CreateAnAccountPage createAnAccountPage = new CreateAnAccountPage(driver);
-        createAnAccountPage.registerUser("Mariusz","Pudzianowski","qwerty");
+        createAnAccountPage.registerUser(firstName, lastName, password);
     }
 
     @Then("User sees my account page")
@@ -47,10 +47,10 @@ public class HotelRegistrationSteps {
                 || driver.getCurrentUrl().contains("https://hotel-testlab.coderslab.pl/en/my-account"));
     }
 
-    @And("User sees his or her user name")
-    public void userSeesHisHerUserName() {
+    @And("User sees its name {}")
+    public void userSeesHisHerUserName(String firstName) {
         String userName = driver.findElement(By.xpath("//*[@id=\"user_info_acc\"]/span[1]")).getText();
-        Assertions.assertEquals("Mariusz", userName);
+        Assertions.assertEquals(firstName, userName);
     }
 
 
