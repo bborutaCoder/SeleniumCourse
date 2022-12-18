@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Dzień 5 Page Object - ostatni commit">
-      <change afterPath="$PROJECT_DIR$/src/Cucumber/Features/google-text-search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/googleSearch/GoogleSearchSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/googleSearch/GoogleSearchTest.java" afterDir="false" />
+    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Dzień 6 cucumber - google search test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.GoogleSearchTest">
+  <component name="RunManager" selected="JUnit.HotelRegistrationTest">
     <configuration name="Scenario: user can search any keyword" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/Cucumber/Features/google-text-search.feature" />
@@ -110,6 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HotelRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.hotelRegistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumber.hotelRegistration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.hotelRegistration.HotelRegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TddCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
@@ -125,29 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TddCalculatorTests.twoDividedByTwoEqualsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.TddCalculatorTests" />
-      <option name="METHOD_NAME" value="twoDividedByTwoEqualsOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelRegistrationTest" />
         <item itemvalue="JUnit.GoogleSearchTest" />
         <item itemvalue="Cucumber Java.Scenario: user can search any keyword" />
         <item itemvalue="JUnit.BookRoomTest.bookRoomTest" />
         <item itemvalue="JUnit.TddCalculatorTests" />
-        <item itemvalue="JUnit.TddCalculatorTests.twoDividedByTwoEqualsOne" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671293174419</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dzień 6 cucumber - google search test">
+      <created>1671363275030</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671363275030</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +224,7 @@
     <MESSAGE value="Dzień 5 Page Object - generowanie losowego maila" />
     <MESSAGE value="Dzień 5 Page Object - zadanie 2 - search bar" />
     <MESSAGE value="Dzień 5 Page Object - ostatni commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dzień 5 Page Object - ostatni commit" />
+    <MESSAGE value="Dzień 6 cucumber - google search test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dzień 6 cucumber - google search test" />
   </component>
 </project>
