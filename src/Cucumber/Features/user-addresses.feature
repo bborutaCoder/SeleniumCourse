@@ -5,7 +5,9 @@ Feature: User addresses
     And user is logged in with email "<email>" and password "<password>"
     When user click Add a New Address button
     When user fills in new address form with "<street>", "<postalCode>", "<city>", "<country>", "<phone>", "<title>" user clicks Save button
-#    Then
+    Then new address data is correct and contains "<street>", "<postalCode>", "<city>", "<country>", "<phone>", "<title>"
+    # tutaj powinnismy zrobic bardziej ogolny mechanizm dzialania niz jest w steps
+    And delete address
 
   Examples:
     |email          |password|street      |postalCode |city     |country|phone    |title      |
