@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Add Selenium homework basics complete">
+      <change afterPath="$PROJECT_DIR$/src/Cucumber/Features/user-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/Ex1/UserAddressSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/Ex1/UserAddressTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/pages/CreateNewAddress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/homework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junit/Zadanie4Junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit/Zadanie4Junit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Zadanie1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Zadanie2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Zadanie3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Zadanie4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/functions/FunctionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/homework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit/JunitAnnotations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit/Zadanie4Junit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taskCheckConfig/BingSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taskCheckConfig/GoogleSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taskCheckConfig/Zadanie2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taskCheckConfig/Zadanie3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wait/Waits.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,98 +54,114 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Java/Repo/CodersLab/SeleniumTrening/src/test/java/cucumber/hotelregistration&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.homework.registerUser">
-    <configuration name="Zadanie4Junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCourse" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\Repo\CodersLab\SeleniumTrening\src\test\java\Gherkin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserAddressTest">
+    <configuration name="GoogleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.*" />
+          <option name="PATTERN" value="cucumber.googleSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.Zadanie4Junit" />
+      <option name="PACKAGE_NAME" value="cucumber.googleSearch" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.googleSearch.GoogleSearchTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadanie4Junit.cannotUseExistingEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCourse" />
+    <configuration name="HotelRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.*" />
+          <option name="PATTERN" value="cucumber.hotelregistration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.Zadanie4Junit" />
-      <option name="METHOD_NAME" value="cannotUseExistingEmailTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="cucumber.hotelregistration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.hotelregistration.HotelRegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadanie4Junit.createNewUserAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCourse" />
+    <configuration name="UserAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.*" />
+          <option name="PATTERN" value="cucumber.Ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.Zadanie4Junit" />
-      <option name="METHOD_NAME" value="createNewUserAccount" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Ex1" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.Ex1.UserAddressTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework.form" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCourse" />
+    <configuration name="UserAddressesTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="cucumber.hotelAddresses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework" />
-      <option name="MAIN_CLASS_NAME" value="homework.homework" />
-      <option name="METHOD_NAME" value="form" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="cucumber.hotelAddresses" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.hotelAddresses.UserAddressesTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework.registerUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCourse" />
+    <configuration name="UserAddressesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="cucumber.googleSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework" />
-      <option name="MAIN_CLASS_NAME" value="homework.homework" />
-      <option name="METHOD_NAME" value="registerUser" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="cucumber.googleSearch" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.googleSearch.UserAddressesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="POS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="POS" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.homework.registerUser" />
-        <item itemvalue="JUnit.homework.form" />
-        <item itemvalue="JUnit.Zadanie4Junit.createNewUserAccount" />
-        <item itemvalue="JUnit.Zadanie4Junit" />
-        <item itemvalue="JUnit.Zadanie4Junit.cannotUseExistingEmailTest" />
+        <item itemvalue="JUnit.UserAddressTest" />
+        <item itemvalue="JUnit.UserAddressesTest (1)" />
+        <item itemvalue="JUnit.UserAddressesTest" />
+        <item itemvalue="JUnit.HotelRegistrationTest" />
+        <item itemvalue="JUnit.GoogleSearchTest" />
       </list>
     </recent_temporary>
   </component>
