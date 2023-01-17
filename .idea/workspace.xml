@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Add Selenium homework basics complete">
-      <change afterPath="$PROJECT_DIR$/src/Cucumber/Features/user-address.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/Ex1/UserAddressSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/Ex1/UserAddressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/pages/CreateNewAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/Ex2/ShoppingSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Zadanie1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Zadanie2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Zadanie3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Zadanie4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/functions/FunctionsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/homework.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junit/JunitAnnotations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junit/Zadanie4Junit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/taskCheckConfig/BingSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/taskCheckConfig/GoogleSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/taskCheckConfig/Zadanie2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/taskCheckConfig/Zadanie3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wait/Waits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cucumber/Features/user-address.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cucumber/Features/user-address.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/Ex1/UserAddressSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/Ex1/UserAddressSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pop/pages/CreateNewAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pop/pages/CreateNewAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Java/Repo/CodersLab/SeleniumTrening/src/test/java/cucumber/hotelregistration&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Java/Repo/CodersLab/SeleniumTrening/src/test/java/cucumber/Ex3&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -66,33 +53,34 @@
       <recent name="F:\Java\Repo\CodersLab\SeleniumTrening\src\test\java\Gherkin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserAddressTest">
-    <configuration name="GoogleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DoShoppingTest">
+    <configuration name="DoShoppingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="POS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.googleSearch.*" />
+          <option name="PATTERN" value="cucumber.Ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cucumber.googleSearch" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.googleSearch.GoogleSearchTest" />
+      <option name="PACKAGE_NAME" value="cucumber.Ex3" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.Ex3.DoShoppingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingSteps.doTheShopping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="POS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.hotelregistration.*" />
+          <option name="PATTERN" value="cucumber.Ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cucumber.hotelregistration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.hotelregistration.HotelRegistrationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="cucumber.Ex2" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.Ex2.ShoppingSteps" />
+      <option name="METHOD_NAME" value="doTheShopping" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,7 +89,7 @@
       <module name="POS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.Ex1.*" />
+          <option name="PATTERN" value="cucumber.Ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,26 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="POS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="POS" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DoShoppingTest" />
         <item itemvalue="JUnit.UserAddressTest" />
+        <item itemvalue="JUnit.ShoppingSteps.doTheShopping" />
         <item itemvalue="JUnit.UserAddressesTest (1)" />
         <item itemvalue="JUnit.UserAddressesTest" />
-        <item itemvalue="JUnit.HotelRegistrationTest" />
-        <item itemvalue="JUnit.GoogleSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670965841181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Selenium homework basics complete">
+      <created>1671485831602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671485831602</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,5 +196,21 @@
     <MESSAGE value="Add Selenium homework first part" />
     <MESSAGE value="Add Selenium homework basics complete" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Selenium homework basics complete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumber/Ex2/ShoppingSteps.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumber/Ex2/ShoppingSteps.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -7,6 +7,9 @@ When user goes to addresses - URL
 And clicks on new address
   Then user fills New address with "<alias>", "<address>", "<city>", "<zip>", "<country>", "<phone>"
 And checks if data in New address contains proper details "<alias>", "<address>", "<city>", "<zip>", "<country>", "<phone>"
+Then user deletes address
+  And confirms it is deleted
+  Then close browser
 
   Examples:
   |email|password|alias|address|city|zip|country|phone|

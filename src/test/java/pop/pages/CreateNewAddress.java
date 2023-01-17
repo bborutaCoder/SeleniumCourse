@@ -46,7 +46,6 @@ public class CreateNewAddress {
         phoneInput.sendKeys(phone);
 
         saveAddressButton.click();
-
     }
 
 }
